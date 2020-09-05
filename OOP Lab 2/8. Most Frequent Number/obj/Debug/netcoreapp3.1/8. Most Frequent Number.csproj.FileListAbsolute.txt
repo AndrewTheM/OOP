@@ -1,0 +1,13 @@
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\bin\Debug\netcoreapp3.1\8. Most Frequent Number.exe
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\bin\Debug\netcoreapp3.1\8. Most Frequent Number.deps.json
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\bin\Debug\netcoreapp3.1\8. Most Frequent Number.runtimeconfig.json
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\bin\Debug\netcoreapp3.1\8. Most Frequent Number.runtimeconfig.dev.json
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\bin\Debug\netcoreapp3.1\8. Most Frequent Number.dll
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\bin\Debug\netcoreapp3.1\8. Most Frequent Number.pdb
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\obj\Debug\netcoreapp3.1\8. Most Frequent Number.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\obj\Debug\netcoreapp3.1\8. Most Frequent Number.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\obj\Debug\netcoreapp3.1\8. Most Frequent Number.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\obj\Debug\netcoreapp3.1\8. Most Frequent Number.dll
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\obj\Debug\netcoreapp3.1\8. Most Frequent Number.pdb
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\obj\Debug\netcoreapp3.1\8. Most Frequent Number.genruntimeconfig.cache
+C:\Users\andre\source\repos\OOP Lab 2\8. Most Frequent Number\obj\Debug\netcoreapp3.1\8. Most Frequent Number.csprojAssemblyReference.cache

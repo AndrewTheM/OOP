@@ -1,0 +1,13 @@
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\bin\Debug\netcoreapp3.1\03. Operators Expressions and Statements.exe
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\bin\Debug\netcoreapp3.1\03. Operators Expressions and Statements.deps.json
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\bin\Debug\netcoreapp3.1\03. Operators Expressions and Statements.runtimeconfig.json
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\bin\Debug\netcoreapp3.1\03. Operators Expressions and Statements.runtimeconfig.dev.json
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\bin\Debug\netcoreapp3.1\03. Operators Expressions and Statements.dll
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\bin\Debug\netcoreapp3.1\03. Operators Expressions and Statements.pdb
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\obj\Debug\netcoreapp3.1\03. Operators Expressions and Statements.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\obj\Debug\netcoreapp3.1\03. Operators Expressions and Statements.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\obj\Debug\netcoreapp3.1\03. Operators Expressions and Statements.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\obj\Debug\netcoreapp3.1\03. Operators Expressions and Statements.dll
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\obj\Debug\netcoreapp3.1\03. Operators Expressions and Statements.pdb
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\obj\Debug\netcoreapp3.1\03. Operators Expressions and Statements.genruntimeconfig.cache
+C:\Users\andre\source\repos\OOP Lab 1\03. Operators Expressions and Statements\obj\Debug\netcoreapp3.1\03. Operators Expressions and Statements.csprojAssemblyReference.cache

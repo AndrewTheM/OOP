@@ -1,0 +1,12 @@
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\bin\Debug\netcoreapp3.1\10. Pairs by Difference.exe
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\bin\Debug\netcoreapp3.1\10. Pairs by Difference.deps.json
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\bin\Debug\netcoreapp3.1\10. Pairs by Difference.runtimeconfig.json
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\bin\Debug\netcoreapp3.1\10. Pairs by Difference.runtimeconfig.dev.json
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\bin\Debug\netcoreapp3.1\10. Pairs by Difference.dll
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\bin\Debug\netcoreapp3.1\10. Pairs by Difference.pdb
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\obj\Debug\netcoreapp3.1\10. Pairs by Difference.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\obj\Debug\netcoreapp3.1\10. Pairs by Difference.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\obj\Debug\netcoreapp3.1\10. Pairs by Difference.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\obj\Debug\netcoreapp3.1\10. Pairs by Difference.dll
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\obj\Debug\netcoreapp3.1\10. Pairs by Difference.pdb
+C:\Users\andre\source\repos\OOP Lab 2\10. Pairs by Difference\obj\Debug\netcoreapp3.1\10. Pairs by Difference.genruntimeconfig.cache

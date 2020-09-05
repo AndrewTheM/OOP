@@ -1,0 +1,13 @@
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\bin\Debug\netcoreapp3.1\3. Fold and Sum.exe
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\bin\Debug\netcoreapp3.1\3. Fold and Sum.deps.json
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\bin\Debug\netcoreapp3.1\3. Fold and Sum.runtimeconfig.json
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\bin\Debug\netcoreapp3.1\3. Fold and Sum.runtimeconfig.dev.json
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\bin\Debug\netcoreapp3.1\3. Fold and Sum.dll
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\bin\Debug\netcoreapp3.1\3. Fold and Sum.pdb
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\obj\Debug\netcoreapp3.1\3. Fold and Sum.csprojAssemblyReference.cache
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\obj\Debug\netcoreapp3.1\3. Fold and Sum.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\obj\Debug\netcoreapp3.1\3. Fold and Sum.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\obj\Debug\netcoreapp3.1\3. Fold and Sum.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\obj\Debug\netcoreapp3.1\3. Fold and Sum.dll
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\obj\Debug\netcoreapp3.1\3. Fold and Sum.pdb
+C:\Users\andre\source\repos\OOP Lab 2\3. Fold and Sum\obj\Debug\netcoreapp3.1\3. Fold and Sum.genruntimeconfig.cache

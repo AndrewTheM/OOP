@@ -1,0 +1,13 @@
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.exe
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.deps.json
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.runtimeconfig.json
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.runtimeconfig.dev.json
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.dll
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\bin\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.pdb
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.dll
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.pdb
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.genruntimeconfig.cache
+C:\Users\andre\source\repos\OOP Lab 2\4. Sieve of Eratosthenes\obj\Debug\netcoreapp3.1\4. Sieve of Eratosthenes.csprojAssemblyReference.cache
