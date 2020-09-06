@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\04. Conditional Statements\\04. Conditional Statements.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\04. Conditional Statements\\04. Conditional Statements.csproj",
       "projectName": "04. Conditional Statements",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\04. Conditional Statements\\04. Conditional Statements.csproj",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\04. Conditional Statements\\04. Conditional Statements.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\04. Conditional Statements\\obj\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\04. Conditional Statements\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\01. Introduction to Programming\\01. Introduction to Programming.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\01. Introduction to Programming\\01. Introduction to Programming.csproj",
       "projectName": "01. Introduction to Programming",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\01. Introduction to Programming\\01. Introduction to Programming.csproj",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\01. Introduction to Programming\\01. Introduction to Programming.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\01. Introduction to Programming\\obj\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\01. Introduction to Programming\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

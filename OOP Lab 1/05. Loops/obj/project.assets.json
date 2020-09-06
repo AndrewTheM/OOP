@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\05. Loops\\05. Loops.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\05. Loops\\05. Loops.csproj",
       "projectName": "05. Loops",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\05. Loops\\05. Loops.csproj",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\05. Loops\\05. Loops.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\05. Loops\\obj\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\05. Loops\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

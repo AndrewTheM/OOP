@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj": {}
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj": {
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj",
         "projectName": "02. Primitive Data Types and Variables",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj",
+        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\02. Primitive Data Types and Variables\\02. Primitive Data Types and Variables.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 1\\02. Primitive Data Types and Variables\\obj\\",
+        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 1\\02. Primitive Data Types and Variables\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

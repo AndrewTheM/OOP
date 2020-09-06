@@ -1,0 +1,12 @@
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\bin\Debug\netcoreapp3.1\04. Opinion Poll.exe
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\bin\Debug\netcoreapp3.1\04. Opinion Poll.deps.json
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\bin\Debug\netcoreapp3.1\04. Opinion Poll.runtimeconfig.json
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\bin\Debug\netcoreapp3.1\04. Opinion Poll.runtimeconfig.dev.json
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\bin\Debug\netcoreapp3.1\04. Opinion Poll.dll
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\bin\Debug\netcoreapp3.1\04. Opinion Poll.pdb
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\obj\Debug\netcoreapp3.1\04. Opinion Poll.AssemblyInfoInputs.cache
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\obj\Debug\netcoreapp3.1\04. Opinion Poll.AssemblyInfo.cs
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\obj\Debug\netcoreapp3.1\04. Opinion Poll.csproj.CoreCompileInputs.cache
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\obj\Debug\netcoreapp3.1\04. Opinion Poll.dll
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\obj\Debug\netcoreapp3.1\04. Opinion Poll.pdb
+C:\Users\andre\source\repos\OOP\OOP Lab 3\04. Opinion Poll\obj\Debug\netcoreapp3.1\04. Opinion Poll.genruntimeconfig.cache
