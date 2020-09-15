@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj": {}
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj": {
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj",
         "projectName": "11. Equal Sums",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj",
+        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\11. Equal Sums\\11. Equal Sums.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\11. Equal Sums\\obj\\",
+        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\11. Equal Sums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj": {}
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj": {
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj",
         "projectName": "08. Most Frequent Number",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj",
+        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\8. Most Frequent Number\\08. Most Frequent Number.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\8. Most Frequent Number\\obj\\",
+        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\8. Most Frequent Number\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

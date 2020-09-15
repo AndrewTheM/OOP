@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
       "projectName": "05. Compare Char Arrays",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\5. Compare Char Arrays\\obj\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"

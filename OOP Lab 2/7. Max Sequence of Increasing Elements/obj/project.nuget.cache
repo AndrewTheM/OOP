@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wUMRQKbzKLjuXgyJXXvh1niLUH7C2M+DXcfqVg06ob2ziOFG/NxB86IP6C5GdR35rilbYDqe7ts26tUtUEwd6g==",
+  "dgSpecHash": "plkV5Nv/mqUgxLFqeV/rEabwsGNjcTgu6sk6p25P4qUjE/9ylA1853xGhzzt2Jy3uwrN/omTGdu7lEX4A0nGmA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj",
+  "projectFilePath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

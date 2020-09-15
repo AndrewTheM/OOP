@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj": {}
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj": {
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj",
         "projectName": "10. Pairs by Difference",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj",
+        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\10. Pairs by Difference\\10. Pairs by Difference.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\10. Pairs by Difference\\obj\\",
+        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\10. Pairs by Difference\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

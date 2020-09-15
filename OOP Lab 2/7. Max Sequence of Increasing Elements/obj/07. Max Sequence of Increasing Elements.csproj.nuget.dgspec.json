@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj": {}
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj": {
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj",
         "projectName": "07. Max Sequence of Increasing Elements",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj",
+        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\07. Max Sequence of Increasing Elements.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\obj\\",
+        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\7. Max Sequence of Increasing Elements\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

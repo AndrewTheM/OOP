@@ -6,6 +6,8 @@ class LoopExercises
     {
         Problem17();
 
+        
+
         Console.ReadKey();
     }
 

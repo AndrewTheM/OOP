@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj": {}
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj": {
+    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
         "projectName": "01. Largest Common End",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
+        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\1. Largest Common End\\obj\\",
+        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"

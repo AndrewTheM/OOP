@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\9. Index of Letters\\09. Index of Letters.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\9. Index of Letters\\09. Index of Letters.csproj",
       "projectName": "09. Index of Letters",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\9. Index of Letters\\09. Index of Letters.csproj",
+      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\9. Index of Letters\\09. Index of Letters.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP Lab 2\\9. Index of Letters\\obj\\",
+      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\9. Index of Letters\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
