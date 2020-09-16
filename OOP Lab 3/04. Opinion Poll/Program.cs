@@ -19,8 +19,8 @@ namespace OpinionPoll
             }
             Console.WriteLine();
 
-            for (int i = 0; i < n; ++i)
-                for (int j = 0; j < n - 1; ++j)
+            for (int i = 0; i < people.Count; ++i)
+                for (int j = 0; j < people.Count - 1; ++j)
                     if (string.Compare(people[j].Name, people[j + 1].Name) > 0)
                         (people[j], people[j + 1]) = (people[j + 1], people[j]);
 

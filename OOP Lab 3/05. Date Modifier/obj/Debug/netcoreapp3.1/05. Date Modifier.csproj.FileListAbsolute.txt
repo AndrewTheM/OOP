@@ -11,3 +11,16 @@ C:\Users\andre\source\repos\OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp
 C:\Users\andre\source\repos\OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.dll
 C:\Users\andre\source\repos\OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.pdb
 C:\Users\andre\source\repos\OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.genruntimeconfig.cache
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.csprojAssemblyReference.cache
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.AssemblyInfoInputs.cache
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.AssemblyInfo.cs
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.dll
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.pdb
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\bin\Debug\netcoreapp3.1\05. Date Modifier.exe
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\bin\Debug\netcoreapp3.1\05. Date Modifier.deps.json
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\bin\Debug\netcoreapp3.1\05. Date Modifier.runtimeconfig.json
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\bin\Debug\netcoreapp3.1\05. Date Modifier.runtimeconfig.dev.json
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\bin\Debug\netcoreapp3.1\05. Date Modifier.dll
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\bin\Debug\netcoreapp3.1\05. Date Modifier.pdb
+C:\Users\Andrew\Source\Repos\AndrewTheM\Hidden-OOP\OOP Lab 3\05. Date Modifier\obj\Debug\netcoreapp3.1\05. Date Modifier.genruntimeconfig.cache

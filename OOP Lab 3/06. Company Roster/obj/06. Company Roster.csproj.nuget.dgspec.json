@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj": {}
+    "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj": {
+    "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj",
+        "projectUniqueName": "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj",
         "projectName": "06. Company Roster",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj",
-        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 3\\06. Company Roster\\obj\\",
+        "projectPath": "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\06. Company Roster\\06. Company Roster.csproj",
+        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\06. Company Roster\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\"
+          "D:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -56,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
