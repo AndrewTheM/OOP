@@ -24,5 +24,8 @@
             Email = email;
             Age = age;
         }
+
+        public override string ToString()
+            => $"{Name} {Salary:0.00} {Email ?? "n/a"} {Age ?? -1}";
     }
 }

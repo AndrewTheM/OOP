@@ -8,25 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Andrew\\.nuget\\packages\\": {},
-    "D:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\andre\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andrew\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\02. Creating Constructors\\02. Creating Constructors.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\02. Creating Constructors\\02. Creating Constructors.csproj",
       "projectName": "02. Creating Constructors",
-      "projectPath": "C:\\Users\\Andrew\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\02. Creating Constructors\\02. Creating Constructors.csproj",
-      "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andrew\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\02. Creating Constructors\\obj\\",
+      "projectPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\02. Creating Constructors\\02. Creating Constructors.csproj",
+      "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\02. Creating Constructors\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -65,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

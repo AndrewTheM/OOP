@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Collections.Specialized;
-using System.Xml;
 
 namespace SpeedRacing
 {
@@ -42,7 +40,7 @@ namespace SpeedRacing
             Console.WriteLine();
 
             foreach (var car in cars)
-                Console.WriteLine($"{car.Model} {car.FuelAmount:0.00} {car.DistanceTraveled}");
+                Console.WriteLine(car);
 
             Console.ReadKey();
         }

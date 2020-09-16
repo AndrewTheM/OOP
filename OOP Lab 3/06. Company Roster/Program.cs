@@ -53,7 +53,7 @@ namespace CompanyRoster
 
             foreach (var employee in employees)
                 if (employee.Department == highestDepartment)
-                    PrintEmployee(employee);
+                    Console.WriteLine(employee);
 
             Console.ReadKey();
         }
@@ -77,12 +77,6 @@ namespace CompanyRoster
             };
 
             return new Employee(name, salary, position, department, email, age);
-        }
-
-        static void PrintEmployee(Employee employee)
-        {
-            Console.WriteLine($"{employee.Name} {employee.Salary:0.00} " +
-                                 $"{employee.Email ?? "n/a"} {employee.Age ?? -1}");
         }
     }
 }

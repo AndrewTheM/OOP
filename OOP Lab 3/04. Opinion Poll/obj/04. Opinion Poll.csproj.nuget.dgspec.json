@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj": {}
+    "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj": {
+    "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj",
         "projectName": "04. Opinion Poll",
-        "projectPath": "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj",
-        "packagesPath": "C:\\Users\\Andrew\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrew\\source\\repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\obj\\",
+        "projectPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\04. Opinion Poll.csproj",
+        "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 3\\04. Opinion Poll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "D:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Andrew\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\andre\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -57,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

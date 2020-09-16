@@ -46,5 +46,8 @@ namespace SpeedRacing
             FuelAmount -= kilometers * FuelConsumptionPerKm;
             DistanceTraveled += kilometers;
         }
+
+        public override string ToString()
+            => $"{Model} {FuelAmount:0.00} {DistanceTraveled}";
     }
 }
