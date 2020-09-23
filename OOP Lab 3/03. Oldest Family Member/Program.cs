@@ -16,9 +16,11 @@ namespace OldestFamilyMember
                 Person person = ParsePersonFromConsole();
                 family.AddMember(person);
             }
+
             Console.WriteLine();
 
             Person oldestMember = family.GetOldestMember();
+
             if (oldestMember == null)
                 Console.WriteLine("None");
             else
@@ -30,6 +32,7 @@ namespace OldestFamilyMember
         static Person ParsePersonFromConsole()
         {
             string[] inputs = Console.ReadLine().Split(' ');
+
             string name = inputs[0];
             int age = int.Parse(inputs[1]);
 

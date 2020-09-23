@@ -23,6 +23,7 @@ namespace RectangleIntersection
             for (int i = 0; i < m; ++i)
             {
                 (string firstId, string secondId) = ParseIdPairFromConsole();
+
                 Rectangle firstRectangle = FindRectangleById(rectangles, firstId);
                 Rectangle secondRectangle = FindRectangleById(rectangles, secondId);
 

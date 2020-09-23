@@ -37,6 +37,7 @@ namespace SpeedRacing
                         break;
                     }
             }
+            
             Console.WriteLine();
 
             foreach (var car in cars)

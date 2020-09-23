@@ -33,6 +33,8 @@ namespace Family
                 }
             }
 
+            Console.WriteLine();
+
             foreach (var tie in ties)
             {
                 string[] inputs = tie.Split(' ');

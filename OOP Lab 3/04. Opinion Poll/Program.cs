@@ -17,12 +17,13 @@ namespace OpinionPoll
                 Person person = ParsePersonFromConsole();
                 people.Add(person);
             }
+
             Console.WriteLine();
 
-            for (int i = 0; i < people.Count; ++i)
-                for (int j = 0; j < people.Count - 1; ++j)
-                    if (string.Compare(people[j].Name, people[j + 1].Name) > 0)
-                        (people[j], people[j + 1]) = (people[j + 1], people[j]);
+            for (int i = 0; i < people.Count - 1; ++i)
+                for (int j = i + 1; j < people.Count; ++j)
+                    if (string.Compare(people[i].Name, people[j].Name) > 0)
+                        (people[i], people[j]) = (people[j], people[i]);
 
             foreach (var person in people)
                 if (person.Age > 30)
@@ -34,6 +35,7 @@ namespace OpinionPoll
         static Person ParsePersonFromConsole()
         {
             string[] inputs = Console.ReadLine().Split(' ');
+
             string name = inputs[0];
             int age = int.Parse(inputs[1]);
 

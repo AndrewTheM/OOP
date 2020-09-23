@@ -25,6 +25,7 @@ namespace CarSalesman
                 Car car = ParseCarFromConsole(engines);
                 cars.Add(car);
             }
+
             Console.WriteLine();
 
             foreach (var car in cars)
@@ -69,6 +70,7 @@ namespace CarSalesman
             };
 
             Engine engine = null;
+
             foreach (var item in engines)
                 if (item.Model == engineModel)
                 {

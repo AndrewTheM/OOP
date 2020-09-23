@@ -35,11 +35,10 @@ namespace PokemonTrainer
                 if (trainer == null)
                 {
                     trainer = new Trainer(trainerName);
-                    trainer.Pokemon.Add(pokemon);
                     trainers.Add(trainer);
                 }
-                else
-                    trainer.Pokemon.Add(pokemon);
+
+                trainer.Pokemon.Add(pokemon);
             }
 
             while (true)

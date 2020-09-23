@@ -26,8 +26,8 @@ namespace PokemonTrainer
                 for (int i = 0; i < Pokemon.Count; ++i)
                 {
                     var pokemon = Pokemon[i];
-
                     pokemon.TakeDamage();
+
                     if (!pokemon.IsAlive)
                         Pokemon.Remove(pokemon);
                 }
