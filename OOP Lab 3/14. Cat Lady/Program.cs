@@ -16,7 +16,7 @@ namespace CatLady
                 if (line == "End")
                     break;
 
-                string[] inputs = line.Split(' ');
+                string[] inputs = line.Replace('.', ',').Split(' ');
 
                 string breed = inputs[0],
                         name = inputs[1];

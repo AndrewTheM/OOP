@@ -52,7 +52,7 @@ namespace RawData
 
         static Car ParseCarFromConsole()
         {
-            string[] inputs = Console.ReadLine().Split(' ');
+            string[] inputs = Console.ReadLine().Replace('.', ',').Split(' ');
 
             string model = inputs[0];
             int engineSpeed = int.Parse(inputs[1]),

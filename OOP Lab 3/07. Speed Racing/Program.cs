@@ -47,7 +47,7 @@ namespace SpeedRacing
 
         static Car ParseCarFromConsole()
         {
-            string[] inputs = Console.ReadLine().Split(' ');
+            string[] inputs = Console.ReadLine().Replace('.', ',').Split(' ');
 
             string model = inputs[0];
             double fuelAmount = double.Parse(inputs[1]),

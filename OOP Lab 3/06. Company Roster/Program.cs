@@ -60,7 +60,7 @@ namespace CompanyRoster
 
         static Employee ParseEmployeeFromConsole()
         {
-            string[] inputs = Console.ReadLine().Split(' ');
+            string[] inputs = Console.ReadLine().Replace('.', ',').Split(' ');
 
             string name = inputs[0];
             double salary = Convert.ToDouble(inputs[1]);

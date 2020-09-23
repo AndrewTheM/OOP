@@ -27,9 +27,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11. Pokemon Trainer", "11. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12. Google", "12. Google\12. Google.csproj", "{0CF9AD0C-CCE3-4D08-A51D-BC3496B6A5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15. Drawing Tool", "15. Drawing Tool\15. Drawing Tool.csproj", "{086E4A62-2FCB-4641-AECD-506AFE08C7EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15. Drawing Tool", "15. Drawing Tool\15. Drawing Tool.csproj", "{086E4A62-2FCB-4641-AECD-506AFE08C7EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14. Cat Lady", "14. Cat Lady\14. Cat Lady.csproj", "{3A699199-8969-4294-9310-FBE6A712FF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "14. Cat Lady", "14. Cat Lady\14. Cat Lady.csproj", "{3A699199-8969-4294-9310-FBE6A712FF42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13. Family Tree", "13. Family Tree\13. Family Tree.csproj", "{D71C2B8E-D1A6-42ED-99BD-58260B5AD87A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{3A699199-8969-4294-9310-FBE6A712FF42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A699199-8969-4294-9310-FBE6A712FF42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A699199-8969-4294-9310-FBE6A712FF42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71C2B8E-D1A6-42ED-99BD-58260B5AD87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71C2B8E-D1A6-42ED-99BD-58260B5AD87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71C2B8E-D1A6-42ED-99BD-58260B5AD87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71C2B8E-D1A6-42ED-99BD-58260B5AD87A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

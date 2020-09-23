@@ -16,7 +16,7 @@ namespace Google
                 if (line == "End")
                     break;
 
-                string[] inputs = line.Split(' ');
+                string[] inputs = line.Replace('.', ',').Split(' ');
 
                 string name = inputs[0],
                         command = inputs[1];

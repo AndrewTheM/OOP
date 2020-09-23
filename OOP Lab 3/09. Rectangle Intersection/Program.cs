@@ -35,7 +35,7 @@ namespace RectangleIntersection
 
         static Rectangle ParseRectangleFromConsole()
         {
-            string[] inputs = Console.ReadLine().Split(' ');
+            string[] inputs = Console.ReadLine().Replace('.', ',').Split(' ');
 
             string id = inputs[0];
             double width = double.Parse(inputs[1]),
