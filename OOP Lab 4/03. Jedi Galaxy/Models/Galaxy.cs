@@ -1,4 +1,6 @@
-﻿namespace JediGalaxy.Models
+﻿using System;
+
+namespace JediGalaxy.Models
 {
     public class Galaxy
     {
@@ -16,12 +18,17 @@
                     Stars[i, j] = new Star(i * rows + j);
         }
 
-        public void PlaceJedi(int starX, int starY) => jediPosition = new Position(starX - 1, starY - 1);
+        public void PlaceJedi(int starX, int starY)
+            => jediPosition = new Position(starX - 1, starY - 1);
 
-        public void PlaceForce(int starX, int starY) => forcePosition = new Position(starX - 1, starY - 1);
+        public void PlaceForce(int starX, int starY)
+            => forcePosition = new Position(starX - 1, starY - 1);
 
         public int CollectStars()
         {
+            if (jediPosition == null || forcePosition == null)
+                throw new Exception("Either Jedi or Force is not in the galaxy");
+
             ActivateForce();
 
             int sum = 0;

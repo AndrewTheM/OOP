@@ -1,9 +1,10 @@
 ﻿namespace JediGalaxy.Models
 {
-    public struct Position
+    public class Position
     {
-        public int X;
-        public int Y;
+        public int X { get; set; }
+
+        public int Y { get; set; }
 
         public Position(int x, int y) => (X, Y) = (x, y);
 
