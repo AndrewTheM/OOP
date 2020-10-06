@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Cars Salesman", "02. Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Family Tree", "07. Family Tree\07. Family Tree.csproj", "{CB5CE414-7DBA-4DED-AB23-173EACBC5B8F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Jedi Galaxy", "03. Jedi Galaxy\03. Jedi Galaxy.csproj", "{B197814D-ED15-4FC2-BA6A-AB6866F32863}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{CB5CE414-7DBA-4DED-AB23-173EACBC5B8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB5CE414-7DBA-4DED-AB23-173EACBC5B8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB5CE414-7DBA-4DED-AB23-173EACBC5B8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B197814D-ED15-4FC2-BA6A-AB6866F32863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B197814D-ED15-4FC2-BA6A-AB6866F32863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B197814D-ED15-4FC2-BA6A-AB6866F32863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B197814D-ED15-4FC2-BA6A-AB6866F32863}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
