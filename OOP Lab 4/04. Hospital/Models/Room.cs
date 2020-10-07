@@ -6,13 +6,26 @@ namespace HospitalManagement.Models
     {
         public const int BedsLimit = 3;
 
-        public List<Patient> PatientsOnBeds { get; }
+        private readonly List<Patient> patientsOnBeds;
+
+        public int BedsOccupied => patientsOnBeds.Count;
+
+        public bool AnyBedAvailable => (BedsOccupied < BedsLimit);
 
         public Room()
         {
-            PatientsOnBeds = new List<Patient>();
+            patientsOnBeds = new List<Patient>();
         }
 
-        public bool AnyBedAvailable => PatientsOnBeds.Count < BedsLimit;
+        public IEnumerable<Patient> GetPatients() => patientsOnBeds;
+
+        public bool PlacePatient(Patient patient)
+        {
+            if (!AnyBedAvailable)
+                return false;
+
+            patientsOnBeds.Add(patient);
+            return true;
+        }
     }
 }
