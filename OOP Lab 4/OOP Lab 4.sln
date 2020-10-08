@@ -11,7 +11,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Family Tree", "07. Fami
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Jedi Galaxy", "03. Jedi Galaxy\03. Jedi Galaxy.csproj", "{B197814D-ED15-4FC2-BA6A-AB6866F32863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Hospital", "04. Hospital\04. Hospital.csproj", "{641144A1-3D53-4B8A-81A8-5782AB01B69A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Hospital", "04. Hospital\04. Hospital.csproj", "{641144A1-3D53-4B8A-81A8-5782AB01B69A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Greedy Times", "05. Greedy Times\05. Greedy Times.csproj", "{CC7CE67D-A8F6-463E-BA10-0F3B72E1D180}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sneaking", "06. Sneaking\06. Sneaking.csproj", "{13A33357-48D3-4608-9F2C-09751A9D5BBF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{641144A1-3D53-4B8A-81A8-5782AB01B69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{641144A1-3D53-4B8A-81A8-5782AB01B69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{641144A1-3D53-4B8A-81A8-5782AB01B69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC7CE67D-A8F6-463E-BA10-0F3B72E1D180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC7CE67D-A8F6-463E-BA10-0F3B72E1D180}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC7CE67D-A8F6-463E-BA10-0F3B72E1D180}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC7CE67D-A8F6-463E-BA10-0F3B72E1D180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13A33357-48D3-4608-9F2C-09751A9D5BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13A33357-48D3-4608-9F2C-09751A9D5BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13A33357-48D3-4608-9F2C-09751A9D5BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13A33357-48D3-4608-9F2C-09751A9D5BBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
