@@ -11,6 +11,13 @@ namespace JediGalaxy
             var jediCoords = ParseIntegerPairFromConsole();
             var forceCoords = ParseIntegerPairFromConsole();
 
+            while (true)
+            {
+                string line = Console.ReadLine();
+                if (line == "Let the Force be with you")
+                    break;
+            }
+
             Console.WriteLine();
 
             Galaxy galaxy = new Galaxy(dimensions.first, dimensions.second);
