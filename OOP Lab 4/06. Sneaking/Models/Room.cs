@@ -1,136 +1,147 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Sneaking.Models
 {
     public class Room
     {
         private Position playerPosition;
+        private Position targetPosition;
+        private readonly List<Enemy> enemies;
 
         public char[][] Fields { get; }
 
         public Room(string[] roomRows)
         {
-            Fields = new char[roomRows.Length][];
+            enemies = new List<Enemy>();
 
+            Fields = new char[roomRows.Length][];
             for (int i = 0; i < Fields.Length; ++i)
-            {
                 Fields[i] = roomRows[i].ToCharArray();
 
-                if (playerPosition == null)
-                {
-                    for (int j = 0; j < Fields[i].Length; ++j)
-                        if (Fields[i][j] == 'S')
-                        {
-                            playerPosition = new Position(j, i);
-                            break;
-                        }
-                }
-            }
+            LocatePositions();
+        }
+
+        private void LocatePositions()
+        {
+            for (int i = 0; i < Fields.Length; ++i)
+                for (int j = 0; j < Fields[i].Length; ++j)
+                    switch (Fields[i][j])
+                    {
+                        case 'S':
+                            {
+                                playerPosition = new Position(j, i);
+                                break;
+                            }
+                        case 'N':
+                            {
+                                targetPosition = new Position(j, i);
+                                break;
+                            }
+                        case 'b':
+                            {
+                                enemies.Add(new Enemy(j, i, Direction.Right));
+                                break;
+                            }
+                        case 'd':
+                            {
+                                enemies.Add(new Enemy(j, i, Direction.Left));
+                                break;
+                            }
+                    }
         }
 
         private void MoveEnemies()
         {
             var (x, y) = playerPosition.Deconstruct();
 
-            for (int i = 0; i < Fields.Length; ++i)
-                for (int j = 0; j < Fields[i].Length; ++j)
-                    if (Fields[i][j] == 'b')
-                    {
-                        if (j < x && i == y)
-                        {
-                            Fields[y][x] = 'X';
-                            throw new Exception($"Sam died at {y}, {x}");
-                        }
+            foreach (var enemy in enemies)
+            {
+                var (ex, ey) = enemy.Position.Deconstruct();
 
-                        if (j < Fields[i].Length - 1)
-                            (Fields[i][j], Fields[i][j + 1]) = (Fields[i][j + 1], Fields[i][j]);
-                        
-                        if (j >= Fields[i].Length - 1)
-                            Fields[i][^1] = 'd';
-                            
-                        break;
-                    }
-                    else if (Fields[i][j] == 'd')
-                    {
-                        if (j > x && i == y)
-                        {
-                            Fields[y][x] = 'X';
-                            throw new Exception($"Sam died at {y}, {x}");
-                        }
+                bool samKilled = (ey == y &&
+                                    (enemy.Direction == Direction.Right && ex < x ||
+                                    enemy.Direction == Direction.Left && ex > x));
+                if (samKilled)
+                {
+                    Fields[y][x] = 'X';
+                    throw new Exception($"Sam died at {y}, {x}");
+                }
 
-                        if (j > 0)
-                            (Fields[i][j], Fields[i][j - 1]) = (Fields[i][j - 1], Fields[i][j]);
-                        
-                        if (j <= 0)
-                            Fields[i][0] = 'b';
+                int leftBound = 0,
+                    rightBound = Fields[ey].Length - 1;
 
-                        break;
-                    }
+                (bool canMove, int step) = (enemy.Direction == Direction.Right)
+                                            ? (ex < rightBound, 1)
+                                            : (ex > leftBound, -1);
+                if (canMove)
+                {
+                    (Fields[ey][ex], Fields[ey][ex + step]) = (Fields[ey][ex + step], Fields[ey][ex]);
+                    enemy.Move();
+                }
+
+                if (enemy.Direction == Direction.Right && ex >= rightBound)
+                {
+                    enemy.SwitchDirection();
+                    Fields[ey][rightBound] = 'd';
+                }
+                else if (enemy.Direction == Direction.Left && ex <= leftBound)
+                {
+                    enemy.SwitchDirection();
+                    Fields[ey][leftBound] = 'b';
+                }
+            }
         }
 
         private void MovePlayer(Direction direction)
         {
             var (x, y) = playerPosition.Deconstruct();
 
-            switch (direction)
+            if (direction == Direction.Wait)
+                return;
+
+            (bool canMove, int step) = direction switch
             {
-                case Direction.Up:
-                    {
-                        if (y != 0)
-                        {
-                            if (Fields[y - 1][x] == 'b' || Fields[y - 1][x] == 'd')
-                            {
-                                Fields[y - 1][x] = '.';
-                            }
+                Direction.Up => (y != 0, -1),
+                Direction.Down => (y != Fields.Length - 1, 1),
+                Direction.Left => (x != 0, -1),
+                Direction.Right => (x != Fields[y].Length - 1, 1),
+                _ => (false, 0)
+            };
 
-                            (Fields[y][x], Fields[y - 1][x]) = (Fields[y - 1][x], Fields[y][x]);
-                            playerPosition.Y -= 1;
-                        }
-                        break;
-                    }
-                case Direction.Down:
-                    {
-                        if (y != Fields.Length - 1)
-                        {
-                            if (Fields[y + 1][x] == 'b' || Fields[y + 1][x] == 'd')
-                            {
-                                Fields[y + 1][x] = '.';
-                            }
-
-                            (Fields[y][x], Fields[y + 1][x]) = (Fields[y + 1][x], Fields[y][x]);
-                            playerPosition.Y += 1;
-                        }
-                        break;
-                    }
-                case Direction.Left:
-                    {
-                        if (x != 0)
-                        {
-                            (Fields[y][x], Fields[y][x - 1]) = (Fields[y][x - 1], Fields[y][x]);
-                            playerPosition.X -= 1;
-                        }
-                        break;
-                    }
-                case Direction.Right:
-                    {
-                        if (x != Fields[y].Length - 1)
-                        {
-                            (Fields[y][x], Fields[y][x + 1]) = (Fields[y][x + 1], Fields[y][x]);
-                            playerPosition.X += 1;
-                        }
-                        break;
-                    }
-                case Direction.Wait: return;
-            }
-
-            y = playerPosition.Y;
-
-            for (int i = 0; i < Fields[y].Length; ++i)
-                if (Fields[y][i] == 'N')
+            if (canMove)
+                switch (direction)
                 {
-                    Fields[y][i] = 'X';
-                    throw new Exception("Nikoladze killed!");
+                    case Direction.Up:
+                    case Direction.Down:
+                        {
+                            var enemy = enemies.Find(en => en.Position.X == x && en.Position.Y == y + step);
+
+                            if (enemy != null)
+                            {
+                                enemies.Remove(enemy);
+                                Fields[y + step][x] = '.';
+                            }
+
+                            (Fields[y][x], Fields[y + step][x]) = (Fields[y + step][x], Fields[y][x]);
+                            playerPosition.Y += step;
+                            break;
+                        }
+                    case Direction.Left:
+                    case Direction.Right:
+                        {
+                            (Fields[y][x], Fields[y][x + step]) = (Fields[y][x + step], Fields[y][x]);
+                            playerPosition.X += step;
+                            break;
+                        }
                 }
+
+            if (playerPosition.Y == targetPosition.Y)
+            {
+                var (tx, ty) = targetPosition.Deconstruct();
+                Fields[ty][tx] = 'X';
+                throw new Exception("Nikoladze killed!");
+            }
         }
 
         public void TakeTurn(Direction playerDirection)
