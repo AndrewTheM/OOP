@@ -12,7 +12,7 @@ namespace ShoppingSpree.Models
         public string Name
         {
             get => name;
-            private set
+            set
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Name cannot be empty.");

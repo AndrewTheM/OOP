@@ -10,7 +10,7 @@ namespace ShoppingSpree.Models
         public string Name
         {
             get => name;
-            private set
+            set
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Name cannot be empty.");
@@ -21,7 +21,7 @@ namespace ShoppingSpree.Models
         public double Cost
         {
             get => cost;
-            private set
+            set
             {
                 if (value < 0)
                     throw new ArgumentException("Cost cannot be negative.");

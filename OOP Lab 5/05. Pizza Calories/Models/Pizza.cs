@@ -12,7 +12,7 @@ namespace PizzaCalories.Models
         public string Name
         {
             get => name;
-            private set
+            set
             {
                 if (string.IsNullOrWhiteSpace(value) || value.Length > 15)
                     throw new ArgumentException("Pizza name should be between 1 and 15 symbols.");

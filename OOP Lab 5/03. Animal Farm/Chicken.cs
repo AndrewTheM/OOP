@@ -10,7 +10,7 @@ namespace AnimalFarm
         public string Name
         {
             get => name;
-            private set
+            set
             {
                 if (string.IsNullOrWhiteSpace(value))
                     throw new ArgumentException("Name cannot be empty.");
@@ -21,7 +21,7 @@ namespace AnimalFarm
         public int Age
         {
             get => age;
-            private set
+            set
             {
                 if (value < 0 || value > 15)
                     throw new ArgumentException("Age should be between 0 and 15.");
@@ -38,6 +38,6 @@ namespace AnimalFarm
         }
 
         private int CalculateProductPerDay()
-            => (age >= 10) ? age - 9 : 0;
+            => (Age >= 10) ? Age - 9 : 0;
     }
 }
