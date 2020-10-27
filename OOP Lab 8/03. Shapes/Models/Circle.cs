@@ -31,6 +31,8 @@ namespace Shapes.Models
         {
             var strBuilder = new StringBuilder();
 
+            // https://www.csharp-console-examples.com/general/draw-a-circle-in-c-console-application/
+
             for (int y = -Radius; y <= Radius; ++y)
             {
                 for (double x = -Radius; x <= Radius + 0.4; x += 0.5)
