@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj": {}
+    "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj": {}
   },
   "projects": {
-    "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj": {
+    "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
+        "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
         "projectName": "05. Compare Char Arrays",
-        "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
+        "projectPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\5. Compare Char Arrays\\05. Compare Char Arrays.csproj",
         "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\5. Compare Char Arrays\\obj\\",
+        "outputPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\5. Compare Char Arrays\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -56,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
+      "projectUniqueName": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
       "projectName": "01. Largest Common End",
-      "projectPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
+      "projectPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\1. Largest Common End\\01. Largest Common End.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\andre\\source\\repos\\OOP\\OOP Lab 2\\1. Largest Common End\\obj\\",
+      "outputPath": "C:\\Users\\andre\\Source\\Repos\\AndrewTheM\\Hidden-OOP\\OOP Lab 2\\1. Largest Common End\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Microsoft\\Xamarin\\NuGet\\"
@@ -63,7 +63,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
