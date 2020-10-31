@@ -3,17 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Define an Interface IPerson", "01. Define an Interface IPerson\01. Define an Interface IPerson.csproj", "{EB2E7FAB-0742-4A31-AC8E-EFA27D750066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Define an Interface IPerson", "01. Define an Interface IPerson\01. Define an Interface IPerson.csproj", "{EB2E7FAB-0742-4A31-AC8E-EFA27D750066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Multiple Implementation", "02. Multiple Implementation\02. Multiple Implementation.csproj", "{78DD24EC-66E2-464C-9A6A-E4EEDA6C7FB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Multiple Implementation", "02. Multiple Implementation\02. Multiple Implementation.csproj", "{78DD24EC-66E2-464C-9A6A-E4EEDA6C7FB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Ferrari", "03. Ferrari\03. Ferrari.csproj", "{568EA4EF-5FCC-4833-B1E7-CBC4FB2C241B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Ferrari", "03. Ferrari\03. Ferrari.csproj", "{568EA4EF-5FCC-4833-B1E7-CBC4FB2C241B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Telephony", "04. Telephony\04. Telephony.csproj", "{5D150168-D70D-4E2C-92E7-435B2B5C91E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Telephony", "04. Telephony\04. Telephony.csproj", "{5D150168-D70D-4E2C-92E7-435B2B5C91E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Border Control", "05. Border Control\05. Border Control.csproj", "{E374C85D-6624-442B-BE8A-1D3C685E7628}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Border Control", "05. Border Control\05. Border Control.csproj", "{E374C85D-6624-442B-BE8A-1D3C685E7628}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Explicit Interfaces", "10. Explicit Interfaces\10. Explicit Interfaces.csproj", "{34BD10C6-B7C5-4D14-984E-A74D66AEE9E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Explicit Interfaces", "10. Explicit Interfaces\10. Explicit Interfaces.csproj", "{34BD10C6-B7C5-4D14-984E-A74D66AEE9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Birthday Celebrations", "06. Birthday Celebrations\06. Birthday Celebrations.csproj", "{6B9FC774-D91B-4B49-B1C8-FCC29400A030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Food Shortage", "07. Food Shortage\07. Food Shortage.csproj", "{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{34BD10C6-B7C5-4D14-984E-A74D66AEE9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34BD10C6-B7C5-4D14-984E-A74D66AEE9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34BD10C6-B7C5-4D14-984E-A74D66AEE9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B9FC774-D91B-4B49-B1C8-FCC29400A030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9FC774-D91B-4B49-B1C8-FCC29400A030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9FC774-D91B-4B49-B1C8-FCC29400A030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9FC774-D91B-4B49-B1C8-FCC29400A030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
