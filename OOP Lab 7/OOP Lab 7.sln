@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Border Control", "05. B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10. Explicit Interfaces", "10. Explicit Interfaces\10. Explicit Interfaces.csproj", "{34BD10C6-B7C5-4D14-984E-A74D66AEE9E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Birthday Celebrations", "06. Birthday Celebrations\06. Birthday Celebrations.csproj", "{6B9FC774-D91B-4B49-B1C8-FCC29400A030}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Birthday Celebrations", "06. Birthday Celebrations\06. Birthday Celebrations.csproj", "{6B9FC774-D91B-4B49-B1C8-FCC29400A030}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Food Shortage", "07. Food Shortage\07. Food Shortage.csproj", "{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07. Food Shortage", "07. Food Shortage\07. Food Shortage.csproj", "{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Military Elite", "08. Military Elite\08. Military Elite.csproj", "{36C298A4-BE84-497A-8EDC-093C4336F6C0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CD9BB82-9094-438D-AEF6-EF8EB851FE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36C298A4-BE84-497A-8EDC-093C4336F6C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36C298A4-BE84-497A-8EDC-093C4336F6C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36C298A4-BE84-497A-8EDC-093C4336F6C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36C298A4-BE84-497A-8EDC-093C4336F6C0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
