@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Custom List Sorter", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Custom List Iterator", "09. Custom List Iterator\09. Custom List Iterator.csproj", "{2C342211-E383-4E82-8AF7-60713BBB5CBC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10. Tuple", "10. Tuple\10. Tuple.csproj", "{34D21BF4-CC4C-459D-8429-B6E4C1833901}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11. Threeuple", "11. Threeuple\11. Threeuple.csproj", "{B8A8693F-51E5-498B-A5B6-303956BE6D18}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{2C342211-E383-4E82-8AF7-60713BBB5CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C342211-E383-4E82-8AF7-60713BBB5CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C342211-E383-4E82-8AF7-60713BBB5CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34D21BF4-CC4C-459D-8429-B6E4C1833901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34D21BF4-CC4C-459D-8429-B6E4C1833901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34D21BF4-CC4C-459D-8429-B6E4C1833901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34D21BF4-CC4C-459D-8429-B6E4C1833901}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A8693F-51E5-498B-A5B6-303956BE6D18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A8693F-51E5-498B-A5B6-303956BE6D18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A8693F-51E5-498B-A5B6-303956BE6D18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A8693F-51E5-498B-A5B6-303956BE6D18}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
