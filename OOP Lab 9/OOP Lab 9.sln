@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "00. Generic Box", "00. Generic Box\00. Generic Box.csproj", "{33FC4B2F-87A9-4560-8228-94739AD50667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "00. Generic Box", "00. Generic Box\00. Generic Box.csproj", "{33FC4B2F-87A9-4560-8228-94739AD50667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Generic Box of String", "01. Generic Box of String\01. Generic Box of String.csproj", "{A3BC7AEA-FDB7-4D63-90A3-693C210EC888}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Generic Box of String", "01. Generic Box of String\01. Generic Box of String.csproj", "{A3BC7AEA-FDB7-4D63-90A3-693C210EC888}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Generic Box of Integer", "02. Generic Box of Integer\02. Generic Box of Integer.csproj", "{6D67AC22-B728-4303-96A7-44BAC7846545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Generic Box of Integer", "02. Generic Box of Integer\02. Generic Box of Integer.csproj", "{6D67AC22-B728-4303-96A7-44BAC7846545}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Generic Swap Method Strings", "03. Generic Swap Method Strings\03. Generic Swap Method Strings.csproj", "{A15D8626-865F-446C-A8B8-67249791F90F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Generic Swap Method Strings", "03. Generic Swap Method Strings\03. Generic Swap Method Strings.csproj", "{A15D8626-865F-446C-A8B8-67249791F90F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Generic Swap Method Integers", "04. Generic Swap Method Integers\04. Generic Swap Method Integers.csproj", "{DA5CDDBB-D32C-4D71-8556-40D68B8FFF83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Generic Swap Method Integers", "04. Generic Swap Method Integers\04. Generic Swap Method Integers.csproj", "{DA5CDDBB-D32C-4D71-8556-40D68B8FFF83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Generic Count Method Strings", "05. Generic Count Method Strings\05. Generic Count Method Strings.csproj", "{2865C3AD-9669-4995-A488-C34E97EC13DB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Generic Count Method Strings", "05. Generic Count Method Strings\05. Generic Count Method Strings.csproj", "{2865C3AD-9669-4995-A488-C34E97EC13DB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Generic Count Method Doubles", "06. Generic Count Method Doubles\06. Generic Count Method Doubles.csproj", "{193F8E7B-5E3D-43D6-BAA9-E97F92CD7033}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06. Generic Count Method Doubles", "06. Generic Count Method Doubles\06. Generic Count Method Doubles.csproj", "{193F8E7B-5E3D-43D6-BAA9-E97F92CD7033}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Custom List", "07. Custom List\07. Custom List.csproj", "{AC7E18E8-3A02-474F-8703-A2648A2709E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Custom List Sorter", "08. Custom List Sorter\08. Custom List Sorter.csproj", "{96B40FCD-AB2B-4982-91E5-AFE5ADC66B7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09. Custom List Iterator", "09. Custom List Iterator\09. Custom List Iterator.csproj", "{2C342211-E383-4E82-8AF7-60713BBB5CBC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{193F8E7B-5E3D-43D6-BAA9-E97F92CD7033}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{193F8E7B-5E3D-43D6-BAA9-E97F92CD7033}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{193F8E7B-5E3D-43D6-BAA9-E97F92CD7033}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC7E18E8-3A02-474F-8703-A2648A2709E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC7E18E8-3A02-474F-8703-A2648A2709E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC7E18E8-3A02-474F-8703-A2648A2709E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC7E18E8-3A02-474F-8703-A2648A2709E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96B40FCD-AB2B-4982-91E5-AFE5ADC66B7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96B40FCD-AB2B-4982-91E5-AFE5ADC66B7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96B40FCD-AB2B-4982-91E5-AFE5ADC66B7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96B40FCD-AB2B-4982-91E5-AFE5ADC66B7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C342211-E383-4E82-8AF7-60713BBB5CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C342211-E383-4E82-8AF7-60713BBB5CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C342211-E383-4E82-8AF7-60713BBB5CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C342211-E383-4E82-8AF7-60713BBB5CBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
