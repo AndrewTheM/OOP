@@ -34,13 +34,17 @@ namespace LinkedListTraversal
                                 list.Remove(number);
                                 break;
                             }
+                        //case "Print":
+                        //    {
+                        //        Console.WriteLine(list[number - 1]);
+                        //        break;
+                        //    }
                         default: throw new InvalidOperationException("Invalid command.");
                     }
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine(ex.Message);
-                    --i;
                 }
             }
 

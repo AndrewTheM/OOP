@@ -12,6 +12,52 @@ namespace LinkedListTraversal.Collections
 
         public int Count { get; protected set; }
 
+        public T this[int index]
+        {
+            get => GetNodeAt(index).Value;
+            set => GetNodeAt(index).Value = value;
+        }
+
+        private LinkedListNode<T> GetNodeAt(int index)
+        {
+            if (index < 0 || index >= Count)
+                throw new IndexOutOfRangeException();
+
+            int count = 0;
+            bool reversed = false;
+            LinkedListNode<T> node;
+
+            if (index < this.Count / 2)
+            {
+                node = head;
+            }
+            else
+            {
+                node = tail;
+                count = this.Count - 1;
+                reversed = true;
+            }
+
+            while (node != null)
+            {
+                if (count == index)
+                    return node;
+
+                if (reversed)
+                {
+                    --count;
+                    node = node.Previous;
+                }
+                else
+                {
+                    ++count;
+                    node = node.Next;
+                }
+            }
+
+            throw new KeyNotFoundException();
+        }
+
         public void Add(T item)
         {
             var node = new LinkedListNode<T>(item);
