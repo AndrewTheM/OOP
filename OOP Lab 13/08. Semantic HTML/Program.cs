@@ -2,19 +2,15 @@
 using System.IO;
 using System.Text.RegularExpressions;
 
-namespace ReplaceAnchorTag
+namespace SemanticHTML
 {
     class Program
     {
-        // https://regex101.com/r/HRIg13/1
+        // https://regex101.com/r/mazLT4/1
 
-        // General version (v1)
-        //const string pattern = @"<a(.*?)>(.*?)<\/a>";
-        //const string replacement = "[URL$1]$2[/URL]";
-
-        // Task version (v2)
-        const string pattern = "<a\\s+href=([\"\'])(.*?)\\1>(.*?)<\\/a>";
-        const string replacement = "[URL href=$2>$3[/URL]";
+        const string pattern = "<div(.*?)\\s+(?:id|class)\\s*=\\s*([\"\'])(\\w+)\\2" +
+                               "\\s*(\\s.*?)?\\s*>(.*?)<\\/div>\\s*<!--\\s*\\3\\s*-->";
+        const string replacement = "<$3$1$4>$5</$3>";
 
         static void Main(string[] args)
         {
@@ -41,7 +37,11 @@ namespace ReplaceAnchorTag
                 Console.Clear();
             }
 
-            string replaced = regex.Replace(input, replacement);
+            string replaced = input;
+
+            while (regex.IsMatch(replaced))
+                replaced = regex.Replace(replaced, replacement);
+
             Console.WriteLine(Environment.NewLine + replaced + Environment.NewLine);
 
             string dir = Path.GetDirectoryName(path),

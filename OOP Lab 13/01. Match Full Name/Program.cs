@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.RegularExpressions;
 
 namespace MatchFullName
 {
     class Program
     {
+        // https://regex101.com/r/b732io/1
+
         const string pattern = @"\b([A-Z]{1}[a-z]+)[ ]([A-Z]{1}[a-z]+)\b";
 
         static void Main(string[] args)
         {
-            var values = new List<string>();
+            var lines = new List<string>();
 
             while (true)
             {
@@ -18,11 +21,12 @@ namespace MatchFullName
                 if (line.ToLower() == "end")
                     break;
 
-                if (Regex.IsMatch(line, pattern))
-                    values.Add(line);
+                lines.Add(line);
             }
 
-            values.ForEach(Console.WriteLine);
+            var fullNames = lines.Where(l => Regex.IsMatch(l, pattern)).ToList();
+
+            fullNames.ForEach(Console.WriteLine);
             Console.ReadKey();
         }
     }

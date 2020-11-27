@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Match Full Name", "01. Match Full Name\01. Match Full Name.csproj", "{D59DC5EF-2993-4C71-AE11-1AFFA91E7F06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Match Full Name", "01. Match Full Name\01. Match Full Name.csproj", "{D59DC5EF-2993-4C71-AE11-1AFFA91E7F06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Match Phone Number", "02. Match Phone Number\02. Match Phone Number.csproj", "{6BDBE170-77CC-4FD7-A46D-5A403ACA7B2E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Match Phone Number", "02. Match Phone Number\02. Match Phone Number.csproj", "{6BDBE170-77CC-4FD7-A46D-5A403ACA7B2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Series of Letters", "03. Series of Letters\03. Series of Letters.csproj", "{F7214E1A-8489-48F8-AD12-BA4A43827ADF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Series of Letters", "03. Series of Letters\03. Series of Letters.csproj", "{F7214E1A-8489-48F8-AD12-BA4A43827ADF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Replace Anchor Tag", "04. Replace Anchor Tag\04. Replace Anchor Tag.csproj", "{2B8ED2B0-4B55-40AB-BBA6-31EDD2F2464C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Replace Anchor Tag", "04. Replace Anchor Tag\04. Replace Anchor Tag.csproj", "{2B8ED2B0-4B55-40AB-BBA6-31EDD2F2464C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Extract Emails", "05. Extract Emails\05. Extract Emails.csproj", "{A30892CE-438A-4456-A1AA-09C98334290C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Sentence Extractor", "06. Sentence Extractor\06. Sentence Extractor.csproj", "{F3F23602-56FD-4F8C-9DFD-35C44B01F7C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07. Valid Usernames", "07. Valid Usernames\07. Valid Usernames.csproj", "{CE0B5DE1-79C8-4CB1-AD36-DA29B28EB9E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08. Semantic HTML", "08. Semantic HTML\08. Semantic HTML.csproj", "{32998B48-E0B3-4799-A0C6-EF39A2EE815D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +41,22 @@ Global
 		{2B8ED2B0-4B55-40AB-BBA6-31EDD2F2464C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B8ED2B0-4B55-40AB-BBA6-31EDD2F2464C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B8ED2B0-4B55-40AB-BBA6-31EDD2F2464C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30892CE-438A-4456-A1AA-09C98334290C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30892CE-438A-4456-A1AA-09C98334290C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30892CE-438A-4456-A1AA-09C98334290C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30892CE-438A-4456-A1AA-09C98334290C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3F23602-56FD-4F8C-9DFD-35C44B01F7C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3F23602-56FD-4F8C-9DFD-35C44B01F7C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3F23602-56FD-4F8C-9DFD-35C44B01F7C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3F23602-56FD-4F8C-9DFD-35C44B01F7C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE0B5DE1-79C8-4CB1-AD36-DA29B28EB9E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0B5DE1-79C8-4CB1-AD36-DA29B28EB9E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0B5DE1-79C8-4CB1-AD36-DA29B28EB9E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0B5DE1-79C8-4CB1-AD36-DA29B28EB9E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32998B48-E0B3-4799-A0C6-EF39A2EE815D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32998B48-E0B3-4799-A0C6-EF39A2EE815D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32998B48-E0B3-4799-A0C6-EF39A2EE815D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32998B48-E0B3-4799-A0C6-EF39A2EE815D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
