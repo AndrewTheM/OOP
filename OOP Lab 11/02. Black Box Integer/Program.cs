@@ -1,27 +1,18 @@
 ﻿using System;
 using System.Reflection;
 
-namespace BlackBoxInteger
+namespace BlackBox
 {
-    class BlackBoxInteger
-    {
-        int innerValue;
-        void Add(int value) => innerValue += value;
-        void Subtract(int value) => innerValue -= value;
-        void Multiply(int value) => innerValue *= value;
-        void Divide(int value) => innerValue /= value;
-        void LeftShift(int value) => innerValue <<= value;
-        void RightShift(int value) => innerValue >>= value;
-    }
-
     class Program
     {
         const BindingFlags nonPublicFlags = BindingFlags.NonPublic | BindingFlags.Instance;
 
         static void Main(string[] args)
         {
-            var box = Activator.CreateInstance<BlackBoxInteger>();
-            var type = box.GetType();
+            var type = typeof(BlackBoxInteger);
+            //var constructor = type.GetConstructor(nonPublicFlags, null, new Type[] { }, null);
+            //var box = constructor.Invoke(null);
+            var box = Activator.CreateInstance(type, true);
             var field = type.GetField("innerValue", nonPublicFlags);
 
             while (true)
