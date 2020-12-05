@@ -1,18 +1,18 @@
 ﻿namespace BarracksWars.Core
 {
     using System;
+    using BarracksWars.Core.Attributes;
     using BarracksWars.Core.Helpers;
     using Contracts;
 
     class Engine : IRunnable
     {
-        private IRepository repository;
-        private IUnitFactory unitFactory;
+        [Inject]
+        private ICommandInterpreter interpreter;
 
-        public Engine(IRepository repository, IUnitFactory unitFactory)
+        public Engine()
         {
-            this.repository = repository;
-            this.unitFactory = unitFactory;
+            Injector.Instance.PerformInjection(this);
         }
         
         public void Run()
@@ -27,16 +27,15 @@
 
                     if (string.IsNullOrWhiteSpace(commandName))
                         continue;
-
-                    var interpreter = new CommandInterpreter(repository, unitFactory);
+                    
                     var command = interpreter.InterpretCommand(data, commandName);
                     string result = command.Execute();
 
                     Console.WriteLine(result);
                 }
-                catch (Exception e)
+                catch (Exception ex)
                 {
-                    Console.WriteLine(e.Message);
+                    Console.WriteLine(ex.Message);
                 }
             }
         }

@@ -1,6 +1,8 @@
 ﻿namespace BarracksWars.Core.Factories
 {
     using System;
+    using System.Linq;
+    using System.Reflection;
     using Contracts;
 
     public class UnitFactory : IUnitFactory
@@ -9,17 +11,21 @@
 
         public IUnit CreateUnit(string unitType)
         {
-            var type = Type.GetType($"{UnitNamespace}.{unitType}");
+            var unit = Assembly.GetExecutingAssembly()
+                               .GetTypes()
+                               .Where(t => t.Namespace == UnitNamespace
+                                            && t.Name.ToLower() == unitType.ToLower())
+                               .SingleOrDefault();
 
-            if (type == null)
+            if (unit == null)
                 throw new ArgumentException("The provided entity does not exist.");
 
-            var instance = Activator.CreateInstance(type);
+            var instance = Activator.CreateInstance(unit);
 
-            if (instance is not IUnit unit)
+            if (instance is not IUnit)
                 throw new ArgumentException("The provided entity is not a Unit.");
 
-            return unit;
+            return (IUnit)instance;
         }
     }
 }

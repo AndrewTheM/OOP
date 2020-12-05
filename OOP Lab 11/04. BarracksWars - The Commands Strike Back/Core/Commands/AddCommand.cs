@@ -2,9 +2,9 @@
 
 namespace BarracksWars.Core.Commands
 {
-    public class AddUnitCommand : Command
+    public class AddCommand : Command
     {
-        public AddUnitCommand(string[] data, IRepository repository, IUnitFactory unitFactory)
+        public AddCommand(string[] data, IRepository repository, IUnitFactory unitFactory)
             : base(data, repository, unitFactory)
         {
         }

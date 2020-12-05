@@ -1,9 +1,9 @@
 ﻿namespace BarracksWars.Core.Factories
 {
+    using Contracts;
     using System;
     using System.Linq;
     using System.Reflection;
-    using Contracts;
 
     public class UnitFactory : IUnitFactory
     {

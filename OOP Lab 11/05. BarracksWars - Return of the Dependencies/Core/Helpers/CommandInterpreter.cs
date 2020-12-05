@@ -10,15 +10,6 @@ namespace BarracksWars.Core.Helpers
     {
         private const string CommandNamespace = "BarracksWars.Core.Commands";
 
-        private readonly IRepository repository;
-        private readonly IUnitFactory unitFactory;
-
-        public CommandInterpreter(IRepository repository, IUnitFactory unitFactory)
-        {
-            this.repository = repository;
-            this.unitFactory = unitFactory;
-        }
-
         public IExecutable InterpretCommand(string[] data, string commandName)
         {
             bool IsNeededCommand(Type type)
@@ -39,7 +30,7 @@ namespace BarracksWars.Core.Helpers
             if (commandType == null)
                 throw new InvalidOperationException("Invalid command!");
 
-            var commandInstance = Activator.CreateInstance(commandType, data, repository, unitFactory);
+            var commandInstance = Activator.CreateInstance(commandType, new object[] { data });
             return (IExecutable)commandInstance;
         }
     }
