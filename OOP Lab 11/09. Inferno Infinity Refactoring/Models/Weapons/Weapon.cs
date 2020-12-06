@@ -1,4 +1,4 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Narrow;
 using InfernoInfinity.Helpers;
 using InfernoInfinity.Models.Enumerations;
 using System;

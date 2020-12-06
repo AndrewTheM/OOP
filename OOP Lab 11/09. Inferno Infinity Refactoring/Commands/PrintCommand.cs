@@ -1,4 +1,5 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Narrow;
+using InfernoInfinity.Helpers;
 
 namespace InfernoInfinity.Commands
 {
@@ -8,6 +9,7 @@ namespace InfernoInfinity.Commands
 
         public PrintCommand(string[] arguments) : base(arguments)
         {
+            Injector.Instance.PerformInjection(this);
         }
 
         public override string Execute()

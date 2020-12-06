@@ -1,6 +1,7 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Generic;
+using InfernoInfinity.Contracts.Narrow;
+using InfernoInfinity.Helpers;
 using InfernoInfinity.Models.Enumerations;
-using InfernoInfinity.Models.Gems;
 using System;
 
 namespace InfernoInfinity.Commands
@@ -13,6 +14,7 @@ namespace InfernoInfinity.Commands
 
         public AddCommand(string[] arguments) : base(arguments)
         {
+            Injector.Instance.PerformInjection(this);
         }
 
         public override string Execute()
@@ -31,7 +33,7 @@ namespace InfernoInfinity.Commands
             var gem = gemFactory.Create(gemType, gemClarity);
 
             weapon.InsertGem(gem, socketIndex);
-            return string.Empty;
+            return base.Execute();
         }
     }
 }

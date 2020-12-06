@@ -1,8 +1,8 @@
 ﻿using InfernoInfinity.Commands;
+using InfernoInfinity.Contracts.Narrow;
 using System;
 using System.Linq;
 using System.Reflection;
-using System.Windows.Input;
 
 namespace InfernoInfinity.Factories
 {

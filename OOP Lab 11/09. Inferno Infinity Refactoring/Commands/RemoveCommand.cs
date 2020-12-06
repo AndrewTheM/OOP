@@ -1,4 +1,5 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Narrow;
+using InfernoInfinity.Helpers;
 
 namespace InfernoInfinity.Commands
 {
@@ -8,6 +9,7 @@ namespace InfernoInfinity.Commands
 
         public RemoveCommand(string[] arguments) : base(arguments)
         {
+            Injector.Instance.PerformInjection(this);
         }
 
         public override string Execute()
@@ -17,7 +19,7 @@ namespace InfernoInfinity.Commands
 
             var weapon = repository.Get(weaponName);
             weapon.RemoveGem(socketIndex);
-            return string.Empty;
+            return base.Execute();
         }
     }
 }

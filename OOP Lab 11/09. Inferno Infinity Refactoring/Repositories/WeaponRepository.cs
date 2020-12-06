@@ -1,4 +1,4 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Narrow;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,19 +26,19 @@ namespace InfernoInfinity.Repositories
             }
             catch (ArgumentException)
             {
-                Weapons.Add(item);
+                weapons.Add(item);
             }
         }
 
         public void Remove(string name)
         {
             var weapon = Get(name);
-            Weapons.Remove(weapon);
+            weapons.Remove(weapon);
         }
 
         public IWeapon Get(string name)
         {
-            return Weapons.SingleOrDefault(w => w.Name == name)
+            return weapons.SingleOrDefault(w => w.Name == name)
                ?? throw new ArgumentException("There is no weapon with such name.", nameof(name));
         }
     }

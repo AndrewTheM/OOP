@@ -1,11 +1,11 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Narrow;
 
 namespace InfernoInfinity.Factories
 {
     public class WeaponFactory : ReflectiveFactory<IWeapon>
     {
         public WeaponFactory()
-            : base("InfernoInfinity.Models.WeaponsW")
+            : base("InfernoInfinity.Models.Weapons")
         {
         }
     }

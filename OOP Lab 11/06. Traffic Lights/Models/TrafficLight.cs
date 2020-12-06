@@ -1,34 +1,32 @@
 ﻿using System;
-using System.Reflection;
+using TrafficLights.Contracts;
 
 namespace TrafficLights.Models
 {
-    public class TrafficLight
+    public class TrafficLight : ITrafficLight
     {
-        public SignalState State { get; private set; }
+        public ISignalState State { get; private set; }
 
         public TrafficLight()
             : this(new RedSignalState())
         {
         }
 
-        public TrafficLight(SignalState state)
+        public TrafficLight(ISignalState state)
         {
             ChangeState(state);
         }
 
-        private void ChangeState(SignalState state)
+        public void ChangeState(ISignalState state)
         {
             State = state
                 ?? throw new ArgumentNullException(nameof(state));
 
-            var type = State.GetType();
-            var flags = BindingFlags.NonPublic | BindingFlags.Instance;
-            var setContextMethod = type.GetMethod("SetContext", flags);
-            setContextMethod.Invoke(State, new object[] { this });
+            var contextProp = State.GetType()
+                                   .GetProperty(nameof(State.Context));
+            contextProp.SetValue(State, this);
         }
 
-        public void SwitchSignal()
-            => State.SwitchSignal();
+        public void Switch() => State.Switch();
     }
 }

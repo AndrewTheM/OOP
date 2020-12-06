@@ -38,7 +38,7 @@ namespace TrafficLights
             {
                 foreach (var tl in trafficLights)
                 {
-                    tl.SwitchSignal();
+                    tl.Switch();
                     Console.Write($"{tl.State.SignalName} ");
                 }
 

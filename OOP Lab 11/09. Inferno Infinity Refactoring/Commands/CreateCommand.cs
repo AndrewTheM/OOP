@@ -1,4 +1,6 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Generic;
+using InfernoInfinity.Contracts.Narrow;
+using InfernoInfinity.Helpers;
 using InfernoInfinity.Models.Enumerations;
 using System;
 
@@ -12,6 +14,7 @@ namespace InfernoInfinity.Commands
 
         public CreateCommand(string[] arguments) : base(arguments)
         {
+            Injector.Instance.PerformInjection(this);
         }
 
         public override string Execute()
@@ -27,7 +30,7 @@ namespace InfernoInfinity.Commands
             var weapon = weaponFactory.Create(weaponType, rarity, weaponName);
 
             repository.Add(weapon);
-            return string.Empty;
+            return base.Execute();
         }
     }
 }

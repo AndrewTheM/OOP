@@ -1,4 +1,4 @@
-﻿using InfernoInfinity.Commands;
+﻿using InfernoInfinity.Contracts.Generic;
 using System;
 using System.Linq;
 using System.Reflection;
@@ -29,7 +29,7 @@ namespace InfernoInfinity.Factories
             }
             catch
             {
-                throw new ArgumentException("The provided type does not exist.", nameof(type));
+                throw new ArgumentException("The provided type does not exist.");
             }
         }
     }

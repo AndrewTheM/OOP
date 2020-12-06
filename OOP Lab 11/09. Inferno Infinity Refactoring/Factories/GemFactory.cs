@@ -1,4 +1,4 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Narrow;
 
 namespace InfernoInfinity.Factories
 {

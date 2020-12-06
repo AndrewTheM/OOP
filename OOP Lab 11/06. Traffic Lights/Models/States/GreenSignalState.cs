@@ -2,11 +2,7 @@
 {
     public class GreenSignalState : SignalState
     {
-        public GreenSignalState() : base("Green")
-        {
-        }
-
-        public override void SwitchSignal()
-            => ChangeContextState(new YellowSignalState());
+        public override void Switch()
+            => Context.ChangeState(new YellowSignalState());
     }
 }

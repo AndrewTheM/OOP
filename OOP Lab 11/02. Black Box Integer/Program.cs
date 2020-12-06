@@ -10,8 +10,6 @@ namespace BlackBox
         static void Main(string[] args)
         {
             var type = typeof(BlackBoxInteger);
-            //var constructor = type.GetConstructor(nonPublicFlags, null, new Type[] { }, null);
-            //var box = constructor.Invoke(null);
             var box = Activator.CreateInstance(type, true);
             var field = type.GetField("innerValue", nonPublicFlags);
 

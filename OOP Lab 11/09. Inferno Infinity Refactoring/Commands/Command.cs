@@ -1,4 +1,4 @@
-﻿using InfernoInfinity.Contracts;
+﻿using InfernoInfinity.Contracts.Narrow;
 
 namespace InfernoInfinity.Commands
 {
@@ -11,6 +11,7 @@ namespace InfernoInfinity.Commands
             Arguments = arguments;
         }
 
-        public abstract string Execute();
+        public virtual string Execute()
+            => string.Empty;
     }
 }

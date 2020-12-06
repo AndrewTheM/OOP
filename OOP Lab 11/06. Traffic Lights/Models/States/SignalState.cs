@@ -1,38 +1,23 @@
 ﻿using System;
-using System.Reflection;
+using System.Linq;
+using TrafficLights.Contracts;
 
 namespace TrafficLights.Models
 {
-    public abstract class SignalState
+    public abstract class SignalState : ISignalState
     {
-        protected TrafficLight trafficLight;
-        protected MethodInfo changeStateMethod;
+        public ITrafficLight Context { get; protected set; }
 
-        public string SignalName { get; }
-
-        protected SignalState(string signalName)
-            => SignalName = signalName;
-
-        protected void SetContext(TrafficLight trafficLight)
+        public string SignalName
         {
-            this.trafficLight = trafficLight
-                ?? throw new ArgumentNullException(nameof(trafficLight));
-
-            var type = trafficLight.GetType();
-            var flags = BindingFlags.NonPublic | BindingFlags.Instance;
-            changeStateMethod = type.GetMethod("ChangeState", flags);
+            get
+            {
+                return GetType().Name
+                       .Split(nameof(SignalState), StringSplitOptions.RemoveEmptyEntries)
+                       .FirstOrDefault();
+            }
         }
 
-        protected void ChangeContextState(SignalState state)
-        {
-            var parameters = new object[] { state };
-
-            if (changeStateMethod != null)
-                changeStateMethod.Invoke(trafficLight, parameters);
-            else
-                throw new InvalidOperationException("The state has no context.");
-        }
-
-        public abstract void SwitchSignal();
+        public abstract void Switch();
     }
 }

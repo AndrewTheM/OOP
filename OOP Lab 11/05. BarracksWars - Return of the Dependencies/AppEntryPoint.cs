@@ -17,9 +17,10 @@
 
         static void ConfigureInjection()
         {
-            Injector.Instance.AddSingleton<IRepository, UnitRepository>();
-            Injector.Instance.AddTransient<IUnitFactory, UnitFactory>();
-            Injector.Instance.AddTransient<ICommandInterpreter, CommandInterpreter>();
+            var injector = Injector.Instance;
+            injector.AddSingleton<IRepository, UnitRepository>();
+            injector.AddTransient<IUnitFactory, UnitFactory>();
+            injector.AddTransient<ICommandInterpreter, CommandInterpreter>();
         }
     }
 }

@@ -1,12 +1,23 @@
 ﻿using InfernoInfinity.Contracts.Generic;
 using InfernoInfinity.Contracts.Narrow;
+using InfernoInfinity.Contracts.Wide;
+using InfernoInfinity.Helpers;
 using System;
 
 namespace InfernoInfinity
 {
     public class Engine : IEngine
     {
+        private IReader inputReader;
+
+        private IWriter outputWriter;
+
         private IReflectiveFactory<ICommand> commandFactory;
+
+        public Engine()
+        {
+            Injector.Instance.PerformInjection(this);
+        }
 
         public void Run()
         {
@@ -14,19 +25,20 @@ namespace InfernoInfinity
             {
                 try
                 {
-                    string line = Console.ReadLine();
+                    string line = inputReader.Read();
                     if (string.IsNullOrWhiteSpace(line))
                         continue;
 
                     var arguments = line.Split(';');
                     string commandName = arguments[0];
+
                     var command = commandFactory.Create(commandName, new object[] { arguments });
                     string result = command.Execute();
-                    Console.WriteLine(result);
+                    outputWriter.Write(result);
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine(ex.Message);
+                    outputWriter.Write(ex.Message);
                 }
             }
         }
