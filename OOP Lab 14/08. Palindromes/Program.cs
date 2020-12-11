@@ -19,6 +19,7 @@ namespace Palindromes
             var words = line.Split(separators, StringSplitOptions.RemoveEmptyEntries);
             var palindromes = words.Where(w => w.IsPalindrome())
                                     .OrderBy(w => w)
+                                    .Distinct()
                                     .ToArray();
 
             string output = string.Join(", ", palindromes);
